@@ -1,0 +1,121 @@
+/* esta propiedad me marca el tamaño de la pagina */
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}  
+
+/* Aqui comienzan los estilos del encavezado  */
+.encavezado{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20%;
+    width: 100%;
+}
+.superior, .inferior{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(53, 51, 51);
+    border: 1px solid black;
+    }
+    /* esta propiedad ID solo reemplaza el color de la clase .inferior */
+    #color{
+        background-color: rgb(212, 211, 141);
+    }
+.superior_izq{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(2, 255, 2);
+    border: 1px solid black;
+}
+.superior_der{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    color: rgb(53, 51, 51);
+    border: 1px solid black;
+}
+
+/* Aqui comienzan los estilos del cuerpo  */
+.cuerpo{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 100%;
+   
+}
+.izqierda{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(139, 64, 158);
+    border: 1px solid black;
+}
+.derecha{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 75%;
+    background-color: orangered;
+    border: 1px solid black;
+}
+.derecha_sup{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+}
+.superior_a{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 60%;
+    border: 1px solid rgb(1, 109, 211);
+    background-color: black;
+    align-self: start;
+}
+.superior_b{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 0, 191);
+    border: 1px solid black;
+}
+.derecha_inf{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(253, 165, 0);
+    border: 1px solid black;
+}
+
+/* Aqui comienzan los estilos del pie de pagina o final */
+.final{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(0, 204, 204);
+    border: 1px solid black;
+}
