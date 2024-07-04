@@ -1,0 +1,48 @@
+.contenedor{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.encavezado{
+    background-color: rgb(88, 88, 88);
+    width: 100%;
+}
+h1{
+    font-size: 6em;
+    margin-top: 9px;
+    margin-bottom: 1px;
+    width: 50%;
+    margin-left: 30%;
+}
+p.eslogan{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    width: 50%;
+    margin-left: 32%;
+}
+h2{
+    font-size: 3em;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: rgb(63, 63, 63);
+}
+.footer{
+    border: 1px solid black;
+    padding: 15px;
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+}
+p.derechos{
+    margin-bottom: 0px;
+    margin-left: 40%;
+}
+.fin{
+    margin-top: 0px;
+    margin-left: 35%;
+}
