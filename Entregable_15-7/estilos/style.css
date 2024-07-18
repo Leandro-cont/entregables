@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padre {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor {
+    display: flex;
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+}
+.caja {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+#caja2 {
+    display: none;
+}
